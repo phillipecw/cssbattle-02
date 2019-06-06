@@ -1,0 +1,30 @@
+<p>
+    <style>
+        * {
+            background: #0b2429;
+            margin: 0
+        }
+
+        p {
+            position: absolute;
+            top: 125;
+            left: 175;
+            width: 50;
+            height: 50;
+            border-radius: 50%;
+            box-shadow: 0 0 0 45px #f3ac3c, 
+                        0 0 0 65px #0b2429, 
+                        0 0 0 75px #998235
+        }
+
+        p:after {
+            background: #998235;
+            content: '';
+            position: fixed;
+            top: 50;
+            left: 100;
+            width: 200;
+            height: 200;
+            z-index: -1;
+            transform: rotate(45deg);
+            border-radius: 50% 0
